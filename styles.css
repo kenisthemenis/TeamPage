@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.heading {
+    width: 50%;
+}
+
+.text {
+    width: 50%;
+    margin-top: 5%;
+}
+
+.text h4 {
+    font-family: Poppins;
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 1.75rem;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.text p {
+    width: 60%;
+    margin-top: 3%;
+    font-family: Poppins;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.75rem;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.container h3 {
+    margin-top: 10%;
+    margin-left: 20%;
+    font-family: PT Serif;
+    font-size: 2.25rem;
+    font-weight: 700;
+    line-height: 3rem;
+    letter-spacing: -0.045em;
+    text-align: left;
+}
+
+
+
+.parent {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10vw;
+}
+
+.child1,
+.child2,
+.child3,
+.child4,
+.child4,
+.child5,
+.child6 {
+    width: 30%;
+}
+
+.name {
+    display: inline-block;
+    width: 60%;
+    margin-left: 20%;
+
+
+}
+
+.name img {
+    width: 100%;
+}
+
+.name p {
+    font-family: Poppins;
+    font-size: 1vw;
+    font-weight: bold;
+    line-height: 1.1.5vw;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.proffession {
+    display: inline;
+    writing-mode: vertical-lr;
+    vertical-align: top;
+    font-family: PT Serif;
+    font-size: 1vw;
+    font-weight: 400;
+    line-height: 1vw;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+footer {
+    font-family: Montserrat;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1rem;
+    letter-spacing: 0em;
+    text-align: center;
+    color: grey;
+    position: static;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: 3vh;
+    margin-top: 15vh;
+
+
+
+
+}
+
+footer p {
+    margin: auto;
+}
+
+
+
+.child2,
+.child5 {
+    margin-top: 5%;
+}
+
+@media (max-width:950px) {
+    * {
+        overflow-x: hidden;
+    }
+
+    .parent {
+        margin-top: 15vw;
+    }
+
+    .child2,
+    .child5 {
+        margin-top: 0%;
+    }
+
+    .child1,
+    .child2,
+    .child3,
+    .child4,
+    .child4,
+    .child5,
+    .child6 {
+        width: 42%;
+    }
+
+
+
+    .proffession {
+        font-size: 2.75vw;
+        line-height: 3vw;
+        margin: 0;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    .heading {
+        width: 100%
+    }
+
+    .heading h3 {
+        margin-left: 10%;
+    }
+
+    .text {
+        width: 100%;
+        margin-left: 10%;
+    }
+
+    .text p {
+        width: 75%;
+    }
+
+    footer {
+        position: static;
+
+
+        margin-top: 5vh;
+    }
+
+    footer p {
+
+        line-height: 3vh;
+        padding: 5%;
+
+    }
+
+    .name {
+        width: 70%;
+        margin-left: 17%;
+    }
+
+    .name p {
+        font-size: 3vw;
+    }
+
+
+
+
+    .child2,
+    .child4,
+    .child6 {
+        margin-top: 10vw
+    }
+}
+
+@media(max-width:160px) {
+    .name {
+        width: 60%;
+    }
+
+
+}
